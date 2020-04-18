@@ -5,44 +5,24 @@
    background-color: #2B94D6;
    color: #F9F9F9;
    width: 375px;
-   font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 
  }
 
-h1 {
-  font-size: 20px;
-  padding: 1%;
-  font-weight: 200;
-}
-
 .container {
-     border-top: 28px solid #000000;
+   border-top: 28px solid #000000;
 }
 
-nav { margin-top: -4%;
+nav {
+  margin-top: 1%;
   padding-left: 1%;
-  }
-
-.ui {
-
-  font-size:12px;
-}
+    }
 
 p {
   font-size: 14px;
-}
-
-ul {
-  padding-right: 1%;
-  margin-top: -4%;
-}
-li {
-  display: inline-block;
-  float: right;
+  float: left;
   padding-left: 1%;
-  padding-right: 1%;
-  font-size: 16px;
-  }
+}
 
 .arrow {
   font-size: 12px;
@@ -51,104 +31,32 @@ li {
 
 }
 
-.user {
-  display: inline-block;
-  float: right;
-  font-size: 28px;
-  padding-right: 2%;
-}
-
-.everything {
-margin-top: 30px;
-}
+.content {
+position: absolute;
+float: left;
+    }
 
 .important {
-font-size: 16px;
-font-weight: 600;
-padding-bottom: 3px;
-
+  float: left;
 }
 
-.line {
+.battery li  {
+  float: right;
+  padding-right: 1%;
+  font-size: 16px;
   display: inline-block;
-  width: 12%;
+  }
+
+.first li {
+  display: inline-block;
+  float: left;
+  padding-right: 1%;
   padding-left: 1%;
-  padding-top: 3px;
 }
 
-.address {
+.second li {
   display: inline-block;
-  width: 45%;
-}
-
-.schedule {
-  display: inline-block;
-  width: 40%;
-}
-
-.eastbound {
-  border-bottom: solid 1px;
-}
-
-.northbound {
-  border-bottom: solid 1px;
-}
-
-.southbound {
-  border-bottom: solid 1px;
-}
-
-.reroute {
-  border-bottom: solid 1px;
-  background-color: #ADADAD;
-}
-
-.out-of-service {
-  border-bottom: solid 1px;
-  background-color: #FFFFFF;
-  color: #ADADAD;
-}
-
-.first {
-
-}
-
-.second {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.third {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.fourth {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.fifth {
-  padding-bottom: 5px;
-}
-
-.sixth {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.seventh {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.eighth {
-  padding-bottom: 5px;
-}
-
-.nineth {
-  padding-bottom: 5px;
-}
-.content {
-
+  float: left;
+  padding-right: 1%;
+  padding-left: 1%;
 }
