@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
  body {
-   background-color: #2B94D6;
+   background-color: #F9F9F9;
    color: #F9F9F9;
    width: 375px;
   font-family: 'Roboto', sans-serif;
@@ -14,8 +14,11 @@
 }
 
 nav {
-  margin-top: 1%;
   padding-left: 1%;
+  position: fixed;
+  height: 40px;
+  width: 375px;
+  background-color: #F9F9F9;
     }
 
 p {
@@ -32,14 +35,22 @@ p {
   display: inline-block;
   width: 30%;
   float: left;
+  color: red;
 
 }
+
+
+.statusbar { position: fixed;
+  width: 375px;
+  height: 40px;
+  background-color: black; }
 
 .buses{
   float: left;
   width: 50%;
   padding-top: 12px;
   font-size: 18px;
+  color: black;
 }
 
 .content {
@@ -63,6 +74,10 @@ h1 {
   font-size: 16px;
   display: inline-block;
   }
+
+.first {
+  background-color: #2B94D6;
+}
 
   .waypoint {
     padding-top: 1%;
