@@ -6,6 +6,7 @@
    color: #F9F9F9;
    width: 375px;
   font-family: 'Roboto', sans-serif;
+  margin: auto;
 
  }
 
@@ -43,7 +44,9 @@ p {
 .statusbar { position: fixed;
   width: 375px;
   height: 40px;
-  background-color: black; }
+  background-color: black;
+  padding-top: 1%;
+}
 
 .buses{
   float: left;
@@ -64,10 +67,15 @@ float: left;
 
 h1 {
   padding-top: 2%;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
   font-size: 18px;
-}
+  }
 
+.north {
+  display: block;
+  width: 100%
+
+}
 .battery li  {
   float: right;
   padding-right: 1%;
@@ -80,9 +88,9 @@ h1 {
 }
 
   .waypoint {
-    padding-top: 1%;
+    padding-top: 2%;
     padding-left: 1%;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
     border-bottom: 1px;
     border-style: solid;
   }
@@ -95,11 +103,15 @@ h1 {
   }
 
 .line  {
-width: 15%;
+width: 8%;
 }
 
 .direction {
-  width: 50%;
+  width: 43%;
+}
+
+.time{
+  width: 26%;
 }
 
 .reroute {
